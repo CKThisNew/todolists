@@ -20,8 +20,9 @@ body {
 nav.state {
   display: flex;
   justify-content: flex-end;
-  position: sticky;
+  position: fixed;
   top: 0;
+  right: 15px;
 }
 
 .time {
@@ -131,8 +132,9 @@ input::placeholder {
   justify-content: flex-start;
   margin-top: 230px;
   font-family: "UnifrakturMaguntia", cursive;
-  position: sticky;
+  position: fixed;
   bottom: 0;
+  left: 10px;
   color: black;
 }
 
